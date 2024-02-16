@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon/icons8-portfolio-16.png" type="image/x-icon">
+    <title>Portfolio | Himansu Pradhan</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://kit.fontawesome.com/6e38ffc0f6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Header Area Start -->
+    <header>
+        <h3>hsp.<span id="logo">dev</span></h3>
+        <nav class="navbar">
+            <ul class="menu-list">
+                <div class="ico cancel-btn">
+                    <i class="fas fa-times"></i>
+                </div>
+                <li><a href="../index.html" class="navLinks">Home</a></li>
+                <li>
+                    <!-- Add an anchor link with a class for triggering the menu -->
+                    <div href="projects" class="menu-trigger"><span>Projects <i class="fa-solid fa-caret-down"></i></span></div>
+                    <!-- <a href="projects" class="menu-trigger">Projects <i class="fa-solid fa-caret-down"></i></a> -->
+                    <!-- Create the container with links -->
+                    <div id="menu-container">
+                        <a href="../html/htmlcssdesign.html">HTML/CSS Designs</a>
+                        <a href="../html/vanillajsprojects.html">VanillaJs Projects</a>
+                        <a href="../html/reactjsprojects.html">ReactJs Projects</a>
+                        <a href="../html/fullstackprojects.html">FullStack Projects</a>
+                    </div>
+                </li>
+                <li><a href="#contact" class="navLinks">Contact</a></li>
+            </ul>
+            <div class="ico menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+    <!-- Header Area End -->
+    <h1 class="project-tag">&lt;/ReactJs&gt;</h1>
+    <!-- Main Section Start -->
+    <div class="project-container">
+     
+    </div>
+    <!-- Main Section End -->
+    <!-- Contact Section Start-->
+    <h1 class="skill-head">&lt;/Contact&gt;</h1>
+    <section class="contact-section" id="contact">
+        <div class="contact-section-one">
+            <div class="contact-mode">
+                <h5><i class="fa-solid fa-phone fa-shake"></i><span>Give a call</span></h5>
+                <p>+91 7894960240</p>
+            </div>
+            <div class="contact-mode">
+                <h5><i class="fa-solid fa-envelope fa-beat-fade"></i><span>Email me</span></h5>
+                <p>himan9131@gmail.com</p>
+            </div>
+            <div class="contact-mode">
+                <h5>Chat with me</h5>
+                <button>
+                    <a href="https://wa.me/917894960240" target="_blank"><i class="fa-solid fa-comment fa-beat"></i></a>
+                </button>
+            </div>
+        </div>
+        <div class="contact-section-two">
+            <form action="https://api.web3forms.com/submit" method="POST">
+
+                <input type="hidden" name="access_key" value="dd83f39c-3313-4d7b-958d-691273172f68">
+
+                <input type="text" name="name" id="name" placeholder="Enter your name" required>
+                <input type="email" name="email" id="client-email" placeholder="Enter your email" required>
+                <textarea name="message" id="textarea" cols="30" rows="10" placeholder="Type messsage"></textarea>
+                <input type="submit" value="Send Message" class="form-btn">
+            </form>
+        </div>
+    </section>
+    <!-- Contact Section End -->
+    <!-- Copyright Start -->
+    <section class="copyright">
+        <span>hsp.dev&#169;2023. All Rights Reserved.</span>
+    </section>
+    <!-- Copyright End -->
+    <!-- Script -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+</html>
