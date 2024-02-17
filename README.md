@@ -45,5 +45,28 @@ This section is listed with all technologies that are used to create this portfo
 To view the portfolio site locally, simply clone this repository to your local machine and open the ' index.html ' file in your web browser.
 
 ```bash
-
+git clone https://github.com/Himan-9131/Portfolio.git
+cd Portfolio
 ```
+&nbsp;
+&nbsp;
+&nbsp;
+
+## Contributing
+
+Suggestions are welcome! If you find any issue or would like to suggest improvements, feel free to open an issue or submit a pull request.
+
+&nbsp;
+&nbsp;
+&nbsp;
+
+## License
+NA
+
+&nbsp;
+&nbsp;
+&nbsp;
+
+## Contact
+
+For inquiries or further information, please contact me at himan9131@gmail.com
